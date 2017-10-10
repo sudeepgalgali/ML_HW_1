@@ -57,7 +57,7 @@ class Knearest:
         """
         assert len(item_indices) == self._k, "Did not get k inputs"
         temp=[]
-        #majlist=[0]*10
+        majlist=[0]*10
        # print (item_indices)
         for i in item_indices:
             temp.append(self._y[i])
@@ -152,7 +152,7 @@ if __name__ == "__main__":
                         help="Restrict training to this many examples")
     args = parser.parse_args()
 
-    data = Numbers("../data/mnist.pkl.gz")
+    data = Numbers("mnist.pkl.gz")
 
     
     # You should not have to modify any of this code

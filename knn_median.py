@@ -153,7 +153,7 @@ if __name__ == "__main__":
                         help="Restrict training to this many examples")
     args = parser.parse_args()
 
-    data = Numbers("../data/mnist.pkl.gz")
+    data = Numbers("mnist.pkl.gz")
 
     
     # You should not have to modify any of this code
